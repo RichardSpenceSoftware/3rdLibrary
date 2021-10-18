@@ -18,7 +18,14 @@ public class NonFiction extends LibraryItem implements Reading{
 
 
     ////////////////////Methods///////////////////////////
-    public void Author(){System.out.println("This is the author"); }
+
+    public String getDate() {
+        return datepublished;
+    }
+
+    public void setDate(String datepublished) {
+        this.datepublished = datepublished;
+    }
 
     @Override
     public void Read() {
