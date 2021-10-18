@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.richard.spence;
 
-public abstract class LibraryItem {
+public class LibraryItem {
 
     //////////////////////////////Attributes//////////////////////////
 
@@ -24,22 +24,28 @@ public abstract class LibraryItem {
 
 
 
-    public void setGenre(String genre) {
+    public void setGenre() {
         this.genre = genre;
         System.out.println("Genre");
+    }
+    public String getGenre(){
+        return genre;
+    }
+
+    public String getName(){
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
         System.out.println("Name");
     }
+    public int getReference(){
+        return reference;
+    }
 
     public void setReference(int reference){
         System.out.println("Reference number: " + reference);
     }
 
-    public void setAuthor(String name) {
-        this.name = name;
-        System.out.println("Authors name");
-    }
 }

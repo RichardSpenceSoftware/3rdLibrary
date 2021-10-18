@@ -23,7 +23,7 @@ public class Fiction1 extends LibraryItem implements Reading{
         return datepublished;
     }
 
-    public void getDate(String datepublished) {
+    public void setDate(String datepublished) {
         this.datepublished = datepublished;
     }
 
