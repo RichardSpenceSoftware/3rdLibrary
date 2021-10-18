@@ -24,7 +24,7 @@ public class LibraryItem {
 
 
 
-    public void setGenre() {
+    public void setGenre(String genre) {
         this.genre = genre;
         System.out.println("Genre");
     }

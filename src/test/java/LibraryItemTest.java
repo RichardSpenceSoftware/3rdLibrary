@@ -9,6 +9,7 @@ public class LibraryItemTest {
     @Test
     public void TestsetGenre() {
         LibraryItem item1 = new LibraryItem("Naked Lunch", 123, "SciFi");
+        item1.setGenre("SciFi");
         assertEquals("SciFi", item1.getGenre());
     }
 
