@@ -20,7 +20,7 @@ public class OtherMedia extends LibraryItem{
         return MediaType;
     }
 
-    public void getMedia(String MediaType) {
+    public void setMedia(String MediaType) {
         this.MediaType = MediaType;
     }
 

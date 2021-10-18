@@ -8,6 +8,7 @@ public class OtherMediaTest {
     @Test
     public void testgetMedia() {
         OtherMedia DVD = new OtherMedia("Donnie Darko","DVD");
+        DVD.setMedia("DVD");
         assertEquals("DVD", DVD.getMedia());
     }
 }
