@@ -1,3 +1,5 @@
+package com.softwareinstitute.training.richard.spence;
+
 import com.softwareinstitute.training.richard.spence.Fiction1;
 import com.softwareinstitute.training.richard.spence.LibraryItem;
 import org.junit.Test;
