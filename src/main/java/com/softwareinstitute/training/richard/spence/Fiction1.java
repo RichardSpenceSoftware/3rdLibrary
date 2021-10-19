@@ -5,6 +5,7 @@ public class Fiction1 extends LibraryItem implements Reading{
 
     ///////////////////////////Attributes////////////////////////////////
     private String datepublished;
+    private String fiction;
 
 
 
@@ -13,6 +14,7 @@ public class Fiction1 extends LibraryItem implements Reading{
     public Fiction1(String name, String datepublished){
         super(name);
         this.datepublished = datepublished;
+        this.fiction = fiction;
 
     }
 
@@ -27,9 +29,12 @@ public class Fiction1 extends LibraryItem implements Reading{
         this.datepublished = datepublished;
     }
 
-    @Override
-    public void Read() {
 
+    @Override
+    public String fiction_or_non() {
+        return fiction;
     }
 }
+
+
 

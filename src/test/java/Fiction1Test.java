@@ -18,4 +18,9 @@ public class Fiction1Test {
         fiction.setDate("This is the Right one");
         assertEquals("This is the Right one","This is the Right one",fiction.getDate());
     }
+
+    @Test
+    public void testRead(){
+
+    }
 }

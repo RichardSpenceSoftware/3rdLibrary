@@ -5,6 +5,7 @@ public class NonFiction extends LibraryItem implements Reading{
 
     ///////////////////////////Attributes////////////////////////////////
     private String datepublished;
+    public String nonfiction;
 
 
 
@@ -28,7 +29,8 @@ public class NonFiction extends LibraryItem implements Reading{
     }
 
     @Override
-    public void Read() {
-
+    public String fiction_or_non() {
+        return nonfiction;
     }
 }
+
